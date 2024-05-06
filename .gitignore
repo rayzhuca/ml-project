@@ -2,3 +2,5 @@
 
 .vscode/*
 .history/
+.Rproj.user
+*.Rproj
