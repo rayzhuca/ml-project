@@ -17,8 +17,8 @@ plot_zeros <- function(f, g) {
   plot_function(function(x, y) f(x, y) - g(x, y), type = "contour")
 }
 
-f <- function(x, y) x**2
-g <- function(x, y) y**2
+# f <- function(x, y) x**2
+# g <- function(x, y) y**2
 
-plot_function(f)
-plot_zeros(f, g)
+# plot_function(f)
+# plot_zeros(f, g)
