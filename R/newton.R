@@ -64,18 +64,18 @@ root <- function(f, dim, tol, grad = NA, learning_rate = 0.01, max_iter = Inf, g
     x
 }
 
-g <- function(x, y) (x - 2) * (y - 2)
-gGrad <- c(function(x, y) y - 2, function(x, y) x - 2)
-gGuess <- c(5, 10)
+# g <- function(x, y) (x - 2) * (y - 2)
+# gGrad <- c(function(x, y) y - 2, function(x, y) x - 2)
+# gGuess <- c(5, 10)
 
-print("test with grad")
+# print("test with grad")
 
-x <- root(g, 2, tol, guess = gGuess, grad=gGrad, max_iter=10000000)
-print(x)
-print(do.call(g, as.list(x)))
+# x <- root(g, 2, tol, guess = gGuess, grad=gGrad, max_iter=10000000)
+# print(x)
+# print(do.call(g, as.list(x)))
 
-print("test without grad")
+# print("test without grad")
 
-x <- root(g, 2, tol, guess = gGuess, max_iter=10000000)
-print(x)
-print(do.call(g, as.list(x)))
+# x <- root(g, 2, tol, guess = gGuess, max_iter=10000000)
+# print(x)
+# print(do.call(g, as.list(x)))
