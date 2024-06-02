@@ -45,5 +45,4 @@ print(head(dffs))
 print(head(c1a))
 
 
-
 print(freqparcoord(c1a,25,1:5,grpvar=6,method="maxdens"))
